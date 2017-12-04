@@ -1,4 +1,4 @@
-ONVIF PROTOCOL FOR LINUX (need change link to openssl libraries in *.pro file for windows)
+ONVIF PROTOCOL FOR LINUX (TODO windows: add openssl libraries and link them in *.pro file)
 For native build please use Qt creator:
 	Qt/onvif_master/onvif_master.pro
 	
