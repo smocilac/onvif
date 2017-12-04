@@ -1,0 +1,10 @@
+ONVIF PROTOCOL FOR LINUX (need change link to openssl libraries in *.pro file for windows)
+For native build please use Qt creator:
+	Qt/onvif_master/onvif_master.pro
+	
+	
+For ARM cross-compile:
+	1.) edit path to ARM cross compiler in env.txt (CROSS_COMPILE_PATH and CROSS_ARCH)
+	2.) make target
+	
+	You will find builded target in build-target directory after make is done.
